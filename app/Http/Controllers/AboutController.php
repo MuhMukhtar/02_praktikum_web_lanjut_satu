@@ -13,7 +13,8 @@ class AboutController extends Controller
      */
     public function index()
     {
-        echo "Muhammad Mukhtar <br>";
-        echo "NIM. 1941720194";
+        // echo "Muhammad Mukhtar <br>";
+        // echo "NIM. 1941720194";
+        return redirect('https://www.educastudio.com/about-us');
     }
 }
